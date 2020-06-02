@@ -1,3 +1,31 @@
-.walrus-showing {
+#walrus-showing {
   display: none;
+  }
+.clickable {
+    cursor: pointer;
+    color: #0088cc;
+  }
+.clickable:hover {
+  text-decoration: underline;
+}
+.clickable2 {
+  cursor: pointer;
+  color: #0088cc;
+}
+.seesecond {
+  display: none;
+}
+.light-background {
+  background-color: white;
+  color: black;
+}
+.dark-background {
+  background-color: black;
+  color: white;
+}
+.highlight {
+  color: green;
+}
+.unhighlight {
+  color: black;
 }
