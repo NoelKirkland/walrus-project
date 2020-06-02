@@ -4,3 +4,9 @@ $(document).ready(function() {
     $("#walrus-hidden").slideToggle();
   });
 });
+$(document).ready(function() {
+  $(".clickable2").click(function() {
+    $(".seefirst").slideToggle();
+    $(".seesecond").slideToggle();
+  });
+});
